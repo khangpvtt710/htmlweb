@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--test-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*--hàng hóa--*/
+    .hh-box
+    {
+    border-radius: 5px; box-shadow: 0 0 5px silver;
+    position:relative; display: inline-block;
+    margin:25px 5px 5px 5px; padding: 15px 0px;
+    text-align:center; width:200px;
+    }
+    .hh-box:hover
+    {
+    box-shadow: 0 0 5px red;
+    }
+    .hh-box-image
+    {
+    width:130px; height:130px;
+    }
+    .hh-box-icon
+    {
+    position:absolute; top:0px; right:0px;
+    }
+    .hh-box-name
+    {
+    position:absolute;
+    left:0px; top:-20px; width: inherit;
+    text-align:center;
+    }
+    .hh-box-price
+    {
+    position:absolute; left:8px; bottom:8px;
+    font-weight:bold; color:silver;
+    }
+    .hh-box-actions
+    {
+    position:absolute; right:8px; bottom:5px; width:25px;
+    }
+    .hh-box-actions img
+    {
+    cursor:pointer; border:0px;
+    }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="hh-box">
+            <div class="hh-box-name">Iphone-X-256Gb-Gray</div>
+            <img class="hh-box-image" src="photo/iphone-x-256gb-gray.jpg" />
+            <div class="hh-box-price">15tr</div>
+            <div class="hh-box-actions">
+            <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+            <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+            <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+            </div>
+            <img src="photo/moi-icon.png"
+            class="hh-box-icon" width="60" />
+            </div>
+
+        <div class="hh-box">
+            <div class="hh-box-name">Samsung-Galaxy-J6</div>
+            <img class="hh-box-image" src="photo/samsung-galaxy-j6-2018.png" />
+            <div class="hh-box-price">5tr</div>
+            <div class="hh-box-actions">
+            <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+            <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+            <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+            </div>
+            <img src="photo/moi-icon.png"
+            class="hh-box-icon" width="60" />
+            </div> 
+        
+            <div class="hh-box">
+                <div class="hh-box-name">Samsung-Galaxy-A8</div>
+                <img class="hh-box-image" src="photo/samsung-galaxy-a8-star-2018.jpg" />
+                <div class="hh-box-price">7tr</div>
+                <div class="hh-box-actions">
+                <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+                <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+                <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+                </div>
+                <img src="photo/moi-icon.png"
+                class="hh-box-icon" width="60" />
+                </div> 
+
+                <div class="hh-box">
+<div class="hh-box-name">Cảm biến khoảng cách</div>
+                    <img class="hh-box-image" src="photo/cảm biến khoảng cách (1).png" />
+                    <div class="hh-box-price">200k</div>
+                    <div class="hh-box-actions">
+                    <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+                    <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+                    <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+                    </div>
+                    <img src="photo/moi-icon.png"
+                    class="hh-box-icon" width="60" />
+                    </div>      
+                
+                    <div class="hh-box">
+                        <div class="hh-box-name">Xe đua tự hành Wedo 2.0</div>
+                        <img class="hh-box-image" src="photo/wd4.png" />
+                        <div class="hh-box-price">1tr</div>
+                        <div class="hh-box-actions">
+                        <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+                        <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+                        <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+                        </div>
+                        <img src="photo/moi-icon.png"
+                        class="hh-box-icon" width="60" />
+                        </div> 
+
+                        <div class="hh-box">
+                            <div class="hh-box-name">Robot Milo Wedo 2.0</div>
+                            <img class="hh-box-image" src="photo/wd6.png" />
+                            <div class="hh-box-price">1.5tr</div>
+                            <div class="hh-box-actions">
+                            <a href="?mahh=1001"><img src="photo/favourites.png" /></a>
+                            <a href="?mahh=1001"><img src="photo/Letter.png" /></a>
+                            <a href="?mahh=1001"><img src="photo/Basket.png" /></a>
+                            </div>
+                            <img src="photo/moi-icon.png"
+                            class="hh-box-icon" width="60" />
+                            </div> 
+       
+    </form>
+</body>
+</html>
